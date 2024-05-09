@@ -7,11 +7,21 @@ body {
 
 body {
 
-   color: lightcoral ;
+   color: midnightblue ;
     opacity: 75%;
     font-weight: bolder ;
     font-style: italic;
-    
+
 }
 
+#style {
+
+    background-color: lightgrey;
+    border: 4px solid orangered;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 10px 8px 6px 4px ; 
+    display: inline-block;
+
+}
 
