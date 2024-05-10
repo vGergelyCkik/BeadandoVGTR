@@ -1,0 +1,137 @@
+body {
+
+
+    background: linear-gradient(to right, purple 0%, purple 50%, white 50%, white 100%);
+
+}
+
+body {
+
+   color: lightcoral ;
+    opacity: 75%;
+    font-weight: bolder ;
+    font-style: italic;
+    
+}
+
+.prog {
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.es_1 {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  left: 25%;
+  margin-left: -100px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgb(224, 224, 224);
+  color: blueviolet;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.es_1:hover {
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(127, 0, 255);
+  border-right: 2px solid rgb(127, 0, 255);
+  box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px,
+    rgba(255, 255, 255, 0.2) 15px 15px;
+}
+
+.es_2 {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  left: 33%;
+  margin-left: -100px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgb(224, 224, 224);
+  color: blueviolet;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.es_2:hover {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(127, 0, 255);
+    border-right: 2px solid rgb(127, 0, 255);
+    box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px,
+    rgba(255, 255, 255, 0.2) 15px 15px;
+  }
+
+.es_3 {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  left: 44%;
+  margin-left: -100px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgb(224, 224, 224);
+  color: blueviolet;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.es_3:hover {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(127, 0, 255);
+    border-right: 2px solid rgb(127, 0, 255);
+    box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
+      rgba(76, 0, 153, 0.2) 15px 15px;
+  }
+
+.es_4 {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgb(224, 224, 224);
+  color: blueviolet;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.es_4:hover {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(127, 0, 255);
+    border-right: 2px solid rgb(127, 0, 255);
+    box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
+      rgba(76, 0, 153, 0.2) 15px 15px;
+  }
