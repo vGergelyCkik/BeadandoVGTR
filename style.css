@@ -15,32 +15,68 @@ body {
 }
 
 
-.navbar-nav:active {
 
 
-    border: 4px solid darkblue;
-    background-color: lightblue;
-    color: green;
-}
 
 
-header>nav:hover {
 
-    border: 6px solid rgb(155, 14, 14);
-    background-color: rgb(69, 218, 69);
-    color: cyan;
+#navbar {
+
+
+    border: 2px solid yellow;
+    background-color: rgb(155, 45, 155);;
+    color: black;
     cursor: pointer;
-    
+    border-radius: 5px;
+    align-self: center;
+    align-items: center;    
+}
+#navbar>li {
+
+
+
+    color: yellow;
+    size: 5px;
+    border: 4px solid black;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 5px;
+    align-self: center;
+    background-color: grey;
+}
+
+
+
+#navbar>li:hover {
+
+border: 6px solid white ;
+color:purple;
+background-color: pink;
+border-radius: 5px;
+}
+
+
+
+#navbar>li:active {
+
+
+
+    border: 6px solid rgb(56, 2, 35);
+    border-radius: 5px;
+    color: indigo;
+    background-color: darkorchid;
 
 }
 
-ul>li a {
 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    size: 9px;
-    color: white;
 
+
+#navbar>li:visited {
+
+border: 6px solid darkgreen;
+border-radius: 5px;
+color: yellow;
+background-color: lightgreen;
 
 }
