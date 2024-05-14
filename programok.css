@@ -38,6 +38,7 @@ body {
   transition-duration: 1s;
   transition-property: border-top, border-left, border-bottom, border-right,
     box-shadow;
+  cursor: pointer;
 }
 
 .es_1:hover {
@@ -47,6 +48,7 @@ body {
   border-right: 2px solid rgb(127, 0, 255);
   box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px,
     rgba(255, 255, 255, 0.2) 15px 15px;
+  cursor: pointer;
 }
 
 .es_2 {
@@ -67,6 +69,7 @@ body {
   transition-duration: 1s;
   transition-property: border-top, border-left, border-bottom, border-right,
     box-shadow;
+  cursor: pointer;
 }
 
 .es_2:hover {
@@ -76,6 +79,7 @@ body {
     border-right: 2px solid rgb(127, 0, 255);
     box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px,
     rgba(255, 255, 255, 0.2) 15px 15px;
+    cursor: pointer;
   }
 
 .es_3 {
@@ -96,6 +100,7 @@ body {
   transition-duration: 1s;
   transition-property: border-top, border-left, border-bottom, border-right,
     box-shadow;
+  cursor: pointer;
 }
 
 .es_3:hover {
@@ -105,6 +110,7 @@ body {
     border-right: 2px solid rgb(127, 0, 255);
     box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
       rgba(76, 0, 153, 0.2) 15px 15px;
+    cursor: pointer;  
   }
 
 .es_4 {
@@ -125,6 +131,7 @@ body {
   transition-duration: 1s;
   transition-property: border-top, border-left, border-bottom, border-right,
     box-shadow;
+  cursor: pointer;  
 }
 
 .es_4:hover {
@@ -134,4 +141,9 @@ body {
     border-right: 2px solid rgb(127, 0, 255);
     box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
       rgba(76, 0, 153, 0.2) 15px 15px;
+    cursor: pointer;
+  }
+
+  .logo {
+    
   }
