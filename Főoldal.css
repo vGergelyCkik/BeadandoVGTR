@@ -30,7 +30,6 @@ body {
     border-radius: 5px;
     align-self: center;
     align-items: center;    
-
 }
 #navbar>li {
 
@@ -89,19 +88,4 @@ background-color: lightgreen;
 
 
     border: 2px solid black;
-}
-
-
-#nav-link>#Programok {
-
-border: 6px solid rgb(56, 2, 35);
-border-radius: 5px;
-color: indigo;
-background-color: darkorchid; }
-
-.aktualisoldal {
-border: 6px solid rgb(56, 2, 35);
-border-radius: 5px;
-color: indigo;
-background-color: darkorchid; !important;
 }

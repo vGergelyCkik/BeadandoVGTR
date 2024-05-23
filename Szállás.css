@@ -81,7 +81,9 @@ color: yellow;
 background-color: lightgreen;
 
 }
-
+.aktualisoldal {
+    background-color: blueviolet;
+}
 
 .logo {
 
@@ -98,10 +100,3 @@ border: 6px solid rgb(56, 2, 35);
 border-radius: 5px;
 color: indigo;
 background-color: darkorchid; }
-
-.aktualisoldal {
-border: 6px solid rgb(56, 2, 35);
-border-radius: 5px;
-color: indigo;
-background-color: darkorchid; !important;
-}
