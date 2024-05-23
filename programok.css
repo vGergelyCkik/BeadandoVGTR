@@ -1,23 +1,23 @@
 body {
-
-
-    background: linear-gradient(to right, purple 0%, purple 50%, white 50%, white 100%);
-
+  background: linear-gradient(
+    to right,
+    purple 0%,
+    purple 50%,
+    white 50%,
+    white 100%
+  );
 }
 
 body {
-
-   color: lightcoral ;
-    opacity: 75%;
-    font-weight: bolder ;
-    font-style: italic;
-    
+  color: lightcoral;
+  opacity: 75%;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 .prog {
-    font-size: xx-large;
-    font-weight: bold;
-
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .es_1 {
@@ -46,8 +46,8 @@ body {
   border-left: 2px solid blueviolet;
   border-bottom: 2px solid rgb(127, 0, 255);
   border-right: 2px solid rgb(127, 0, 255);
-  box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px,
-    rgba(255, 255, 255, 0.2) 15px 15px;
+  box-shadow: rgba(255, 255, 255, 0.4) 5px 5px,
+    rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px;
   cursor: pointer;
 }
 
@@ -73,14 +73,14 @@ body {
 }
 
 .es_2:hover {
-    border-top: 2px solid blueviolet;
-    border-left: 2px solid blueviolet;
-    border-bottom: 2px solid rgb(127, 0, 255);
-    border-right: 2px solid rgb(127, 0, 255);
-    box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px,
-    rgba(255, 255, 255, 0.2) 15px 15px;
-    cursor: pointer;
-  }
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(127, 0, 255);
+  border-right: 2px solid rgb(127, 0, 255);
+  box-shadow: rgba(255, 255, 255, 0.4) 5px 5px,
+    rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px;
+  cursor: pointer;
+}
 
 .es_3 {
   display: inline-block;
@@ -104,14 +104,14 @@ body {
 }
 
 .es_3:hover {
-    border-top: 2px solid blueviolet;
-    border-left: 2px solid blueviolet;
-    border-bottom: 2px solid rgb(127, 0, 255);
-    border-right: 2px solid rgb(127, 0, 255);
-    box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
-      rgba(76, 0, 153, 0.2) 15px 15px;
-    cursor: pointer;  
-  }
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(127, 0, 255);
+  border-right: 2px solid rgb(127, 0, 255);
+  box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
+    rgba(76, 0, 153, 0.2) 15px 15px;
+  cursor: pointer;
+}
 
 .es_4 {
   display: inline-block;
@@ -131,19 +131,44 @@ body {
   transition-duration: 1s;
   transition-property: border-top, border-left, border-bottom, border-right,
     box-shadow;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .es_4:hover {
-    border-top: 2px solid blueviolet;
-    border-left: 2px solid blueviolet;
-    border-bottom: 2px solid rgb(127, 0, 255);
-    border-right: 2px solid rgb(127, 0, 255);
-    box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
-      rgba(76, 0, 153, 0.2) 15px 15px;
-    cursor: pointer;
-  }
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(127, 0, 255);
+  border-right: 2px solid rgb(127, 0, 255);
+  box-shadow: rgba(76, 0, 153, 0.4) 5px 5px, rgba(76, 0, 153, 0.3) 10px 10px,
+    rgba(76, 0, 153, 0.2) 15px 15px;
+  cursor: pointer;
+}
 
-  .logo {
-    
-  }
+.logo {
+}
+
+.punkosd {
+  width: 49%;
+  height: 450px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.punkosd h1 {
+  color: #E2E2E2;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+
+}
+
+.punkosd p {
+  color: #E2E2E2;
+}
+
+.varjatek {
+  width: 45%;
+  height: 45%;
+  float: right;
+  margin-right: 45px;
+}
