@@ -153,6 +153,7 @@ body {
   border: 2px solid black;
   padding: 10px;
   margin: 10px;
+  display: inline-block;
 }
 
 .punkosd h1 {
@@ -168,7 +169,76 @@ body {
 
 .varjatek {
   width: 45%;
-  height: 45%;
+  height: 460px;
   float: right;
   margin-right: 45px;
+  display: inline-block;
+}
+
+.meses {
+  width: 46%;
+  height: 49%;
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.mesesvarjatekeok {
+  width: 49%;
+  height: 300px;
+  margin: 10px;
+  margin-top: 40px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.mesesvarjatekeok h1 {
+  text-align: center;
+  color: #E2E2E2;
+}
+
+.mesesvarjatekeok p {
+  color: #E2E2E2;
+}
+
+.szentisti {
+  float: inline-end;
+  margin-top: 70px;
+  margin-left: 600px;
+  margin-right: 140px;
+}
+
+.isti {
+  border: 2px solid black;
+  width: 49%;
+  margin-left: 10px;
+  margin-top: 500px;
+}
+
+.isti h1 {
+  text-align: center;
+  color: #E2E2E2;
+}
+
+.isti p {
+  color: #E2E2E2;
+}
+
+.szureti_img {
+  width: 48%;
+  height: 50%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.sureti {
+  border: 2px solid black;
+  width: 49%;
+  margin-left: 10px;
+  margin-top: 300px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
