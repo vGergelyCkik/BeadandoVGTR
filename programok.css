@@ -242,3 +242,102 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+
+    background: linear-gradient(to right, purple 0%, purple 50%, white 50%, white 100%);
+
+}
+
+body {
+
+   color: lightcoral ;
+    opacity: 75%;
+    font-weight: bolder ;
+    font-style: italic;
+    
+}
+
+
+
+
+
+
+
+#navbar {
+
+
+    border: 2px solid yellow;
+    background-color: rgb(155, 45, 155);;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+    align-items: center;    
+
+}
+#navbar>li {
+
+
+
+    color: yellow;
+    size: 5px;
+    border: 4px solid black;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 5px;
+    align-self: center;
+    background-color: grey;
+}
+
+
+
+#navbar>li:hover {
+
+border: 6px solid white ;
+color:purple;
+background-color: pink;
+border-radius: 5px;
+}
+
+
+
+#navbar>li:active {
+
+
+
+    border: 6px solid rgb(56, 2, 35);
+    border-radius: 5px;
+    color: indigo;
+    background-color: darkorchid;
+
+}
+
+
+
+
+#navbar>li:visited {
+
+border: 6px solid darkgreen;
+border-radius: 5px;
+color: yellow;
+background-color: lightgreen;
+
+}
+
+
+.logo {
+
+
+
+
+    border: 2px solid black;
+}
+
+
+#nav-link>#Programok {
+
+border: 6px solid rgb(56, 2, 35);
+border-radius: 5px;
+color: indigo;
+background-color: darkorchid; }
